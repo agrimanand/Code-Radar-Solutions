@@ -5,8 +5,7 @@ int main() {
     if(a<0){
         printf("True");
     }else{
-        prinf("False")
+        prinf("False");
     }
-    printf("%s", welcome());
-    return 0;
+        return 0;
 }
