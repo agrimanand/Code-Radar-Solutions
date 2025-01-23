@@ -8,6 +8,5 @@ int main() {
     }else{
         printf("");
     }
-    printf("%s", welcome());
     return 0;
 }
