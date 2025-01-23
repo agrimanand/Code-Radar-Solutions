@@ -6,7 +6,7 @@ int main() {
     if(a<=b){
         printf("True");
     }else{
-        printf("")
+        printf("");
     }
     printf("%s", welcome());
     return 0;
