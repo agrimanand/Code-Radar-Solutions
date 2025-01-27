@@ -6,9 +6,6 @@ int main() {
     scanf("%d",&c);
     if(a+b > c || b+c > a || c+a >>b){
         printf("Valid");
-
-    }else if(a+b==c || b+c == a || c+a == b){
-        printf("Not Valid")
     }else{
         printf("Not Valid");
     }
