@@ -11,6 +11,5 @@ int main() {
     }else{
         printf("Scalene");
     }
-    printf("%s", welcome());
     return 0;
 }
