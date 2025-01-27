@@ -2,11 +2,13 @@
 
 int main() {
     int a;
+    Str b = "Even";
+    Str c = "Odd";
     scanf("%d",&a);
     if(a%2==0){
-        printf("%d",a);
+        printf("%d",b);
     }else{
-        printf("%d",a);
+        printf("%d",c);
     }
     return 0;
 }
