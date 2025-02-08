@@ -4,19 +4,19 @@ int main() {
     scanf("%d",&a);
     if(a>=A && a<=F){
         switch(a){
-            case A:
+            case 'A':
             printf("Excellent");
             break;
-            case B:
+            case 'B':
             printf("Good");
             break;
-            case C:
+            case 'C':
             printf("Average");
             break;
-            case D:
+            case 'D':
             printf("Below Average");
             break;
-            case E:
+            case 'D':
             printf("Fail");
             break;
         }
