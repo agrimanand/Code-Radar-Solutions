@@ -4,6 +4,7 @@ int main() {
     scanf("%d",&a);
     if(a=='A'){
         printf("Excellent");
+        break;
     }else if(a=='B'){
         printf("Good");
     }else if(a=='c'){
