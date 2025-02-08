@@ -15,7 +15,6 @@ int main() {
         answer = a / b;
     } else {
         printf("error");
-        return 1;
     }
 
     printf("%d\n", answer);
