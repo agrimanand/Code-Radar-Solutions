@@ -6,8 +6,11 @@ int main() {
             printf("Vowel");
         }else if(ch == 'A' || ch=='I' || ch=='E'|| ch=='U'|| ch=='O'){
             printf("Vowel");
-        }else{
+        }else if(ch != 'A' || ch!='I' || ch!='E'|| ch!='U'|| ch!='O'){
             printf("Consonant");
+        }else{
+            printf("Special Character")
+        }
     }
     return 0;
 }
