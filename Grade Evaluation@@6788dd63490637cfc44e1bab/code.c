@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int a;
-    scanf("%d",&a);
+    char a;
+    scanf("%c",&a);
     if(a=='A' || a=='a'){
         printf("Excellent");
     }else if(a=='B'){
