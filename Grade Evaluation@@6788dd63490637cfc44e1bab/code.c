@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main() {
-    char a;
-    scanf("%c",&a);
-    if(a=='A' || a=='a'){
+    char grade;
+    scanf("%c", &grade);
+    if (grade == 'A') {
         printf("Excellent");
-    }else if(a=='B'){
+    } else if (grade == 'B') {
         printf("Good");
-    }else if(a=='c'){
+    } else if (grade == 'C') {
         printf("Average");
-    }else if(a=='D'){
+    } else if (grade == 'D') {
         printf("Below Average");
-    }else if(a=='E'){
+    } else if (grade == 'F') {
         printf("Fail");
-    }else{
+    } else {
         printf("Invalid grade");
     }
     return 0;
