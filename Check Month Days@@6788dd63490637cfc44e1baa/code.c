@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 int main() {
     int month;
-    scanf("%d",&a);
-    if(month>=1 && month<=12){
-        switch (month){
+    scanf("%d", &month);
+
+    if (month >= 1 && month <= 12) {
+        switch (month) {
             case 1:
             case 3:
             case 5:
@@ -23,10 +25,9 @@ int main() {
                 printf("28");
                 break;
         }
-        
-
-    }else{
-            printf("Invalid month");
+    } else {
+        printf("Invalid month");
     }
+
     return 0;
 }
