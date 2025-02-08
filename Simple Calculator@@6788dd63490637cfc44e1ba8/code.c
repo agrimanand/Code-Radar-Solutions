@@ -14,8 +14,7 @@ int main() {
         answer = a * b;
     } else if (op == '/') {
         if (b == 0) {
-            printf("Error: Division by zero\n");
-            return 1;
+            printf("error");
         }
         answer = a / b;
     } else {
