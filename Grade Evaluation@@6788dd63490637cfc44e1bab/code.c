@@ -2,9 +2,8 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a=='A'){
+    if(a=='A' || a=='a'){
         printf("Excellent");
-        break;
     }else if(a=='B'){
         printf("Good");
     }else if(a=='c'){
