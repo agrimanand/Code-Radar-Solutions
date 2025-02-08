@@ -28,9 +28,9 @@ int main() {
             printf(30);
             case 12:
             printf("31");
+        }
         }else{
             printf("Invalid month");
-        }
 
     }
     
