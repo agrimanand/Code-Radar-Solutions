@@ -2,10 +2,18 @@
 int main() {
     int a;
     scanf("%d",&a);
-    int p;
     if(a=='A'){
-        p=Excellent;
+        printf("Excellent");
+    }else if(a=='B'){
+        printf("Good");
+    }else if(a=='c'){
+        printf("Average");
+    }else if(a=='D'){
+        printf("Below Average");
+    }else if(a=='E'){
+        printf("Fail");
+    }else{
+        printf("Invalid grade");
     }
-    printf("%d", p)
     return 0;
 }
