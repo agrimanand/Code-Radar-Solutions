@@ -2,26 +2,10 @@
 int main() {
     int a;
     scanf("%d",&a);
-    if(a>=A && a<=F){
-        switch(a){
-            case 'A':
-            printf("Excellent");
-            break;
-            case 'B':
-            printf("Good");
-            break;
-            case 'C':
-            printf("Average");
-            break;
-            case 'D':
-            printf("Below Average");
-            break;
-            case 'D':
-            printf("Fail");
-            break;
-        }
-    }else{
-        printf("Invalid grade");
+    int p;
+    if(a=='A'){
+        p=Excellent;
     }
+    printf("%d", p)
     return 0;
 }
