@@ -12,10 +12,6 @@ int main() {
     } else if (op == '*') {
         answer = a * b;
     } else if (op == '/') {
-        if (b == 0) {
-            printf("error");
-            return 0;
-        }
         answer = a / b;
     } else {
         printf("error");
