@@ -23,10 +23,10 @@ int main() {
                 printf("28");
                 break;
         }
-        }else{
-            printf("Invalid month");
+        
 
-    }
+    }else{
+            printf("Invalid month");
     
     return 0;
 }
