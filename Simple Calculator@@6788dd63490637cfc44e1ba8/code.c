@@ -3,7 +3,6 @@
 int main() {
     int a, b;
     char op;
-    printf("Enter two integers and an operator (+, -, *, /): ");
     scanf("%d %d %c", &a, &b, &op);
     int answer;
     if (op == '+') {
@@ -19,7 +18,7 @@ int main() {
         }
         answer = a / b;
     } else {
-        printf("Error: Invalid operator\n");
+        printf("error");
         return 1;
     }
 
