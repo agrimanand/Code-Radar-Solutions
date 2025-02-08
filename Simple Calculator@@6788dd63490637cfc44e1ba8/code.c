@@ -15,6 +15,7 @@ int main() {
     } else if (op == '/') {
         if (b == 0) {
             printf("error");
+            return 0;
         }
         answer = a / b;
     } else {
