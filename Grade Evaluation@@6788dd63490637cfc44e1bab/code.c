@@ -9,11 +9,13 @@ int main() {
             break;
             case B:
             printf("Good");
+            break;
             case C:
             printf("Average");
             break;
             case D:
             printf("Below Average");
+            break;
             case E:
             printf("Fail");
             break;
