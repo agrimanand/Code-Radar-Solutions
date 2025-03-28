@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    fprintf(stderr, "%d\n", n);
+    int n,m;
+    scanf("%d %d", &n,&m);
+    fprintf(stderr, "%d %d\n", n,m);
     return 0;
 }
