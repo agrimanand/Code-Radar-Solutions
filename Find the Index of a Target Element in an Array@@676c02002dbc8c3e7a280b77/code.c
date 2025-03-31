@@ -13,7 +13,6 @@ int main(){
         if(j==arr[i]){
             printf("%d",i);
             break;
-        
         }
     }
 
