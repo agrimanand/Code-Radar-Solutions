@@ -8,13 +8,12 @@ int main(){
     }
     int j;
     scanf("%d",&j);
+    int index = -1
     for(int i = 0;i<n;i++){
         if(j==arr[i]){
             printf("%d",i);
             break;
-        }else{
-            printf("%d",-1);
-            break;
+        
         }
     }
 
